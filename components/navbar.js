@@ -7,7 +7,7 @@ let navbar = () => {
     <p><a href="live.html">LIVE</a></p>
     <p>CARE</p>
     <p>MIND</p>
-    <p>STORE</p>
+    <p><a href="store.html">STORE</a></p>
     <p><a href="eat.html">EAT</a></p>
 </div>
 <div id="lastDiv">
