@@ -17,6 +17,9 @@ body {
   color: rgb(185, 186, 188);
   align-items: center;
   height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #iconDiv {
@@ -85,3 +88,5 @@ body {
 #cart {
   width: 25px;
 }
+
+

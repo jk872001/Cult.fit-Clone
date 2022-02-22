@@ -11,7 +11,7 @@ let navbar = () => {
     <p><a href="eat.html">EAT</a></p>
 </div>
 <div id="lastDiv">
-    <p>MUMBAI</p>
+    <p>BANGALORE</p>
     <img id="location" src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_26,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive/image/test/header/location.png">
     <p id="getApp">GET APP</p>
     <img id="userPic" src="https://static.cure.fit/assets/images/user-default.png">

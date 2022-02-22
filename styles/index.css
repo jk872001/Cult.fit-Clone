@@ -17,6 +17,9 @@ body {
   color: rgb(185, 186, 188);
   align-items: center;
   height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #iconDiv {
@@ -46,15 +49,15 @@ body {
 }
 
 #midDiv > p > a:hover {
-    color: white;
+  color: white;
 }
 
 #midDiv > p:hover {
   color: white;
 }
 
-#midDiv > p:focus{
-    border-bottom: 2px solid white;
+#midDiv > p:focus {
+  border-bottom: 2px solid white;
 }
 
 #lastDiv {
@@ -85,3 +88,172 @@ body {
 #cart {
   width: 25px;
 }
+
+/* First Div */
+
+#firstDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 130px 90px;
+}
+
+#textDiv {
+  width: 30%;
+  margin-top: -35px;
+}
+
+#textDiv > h1 {
+  font-size: 3em;
+}
+
+#textDiv > p {
+  color: rgb(110, 109, 109);
+  font-size: 1.1em;
+  font-weight: bold;
+  word-spacing: 0.1em;
+  line-height: 2em;
+}
+
+#blue {
+  color: rgb(0, 171, 233);
+}
+
+#videoDiv {
+  width: 64%;
+}
+
+#videoDiv > video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Second Div */
+
+#secondDiv {
+  border: 1px solid red;
+  height: 740px;
+  padding: 0px 150px 90px;
+}
+
+#upperDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#arrow {
+  transform: scale(-1, -1);
+}
+
+#leftDiv > h1 {
+  font-size: 3.3em;
+}
+
+#leftDiv > h3 {
+  color: rgb(76, 76, 76);
+  margin-top: -23px;
+}
+
+#leftDiv > p {
+  color: rgb(76, 76, 76);
+  font-size: 0.9em;
+  margin-bottom: 45px;
+}
+
+#rightDiv {
+  display: flex;
+  align-items: center;
+  width: 77px;
+  justify-content: space-between;
+}
+
+#rightDiv > a {
+  text-decoration: none;
+  color: rgb(76, 76, 76);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#rightDiv > img {
+  width: 10px;
+  margin-top: 3px;
+}
+
+#lowerDiv {
+  height: 470px;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+#imgDiv1 {
+  position: relative;
+  flex: 3;
+  overflow: hidden;
+}
+
+#imgDiv2 {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
+#imgDiv3 {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+#img1 {
+  width: 800px;
+  object-fit: cover;
+  object-position: -50px;
+}
+
+#img2 {
+  width: 770px;
+  object-fit: cover;
+  object-position: -420px;
+}
+
+#img3 {
+  width: 800px;
+  object-position: -450px;
+  object-fit: cover;
+}
+
+#bigText {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#smallText {
+  position: absolute;
+  top: 60px;
+  margin-top: 22px;
+  left: 40px;
+  color: white;
+  font-size: 0.9em;
+  width: 40%;
+  line-height: 2.2em;
+}
+
+#exploreBtn {
+  position: absolute;
+  top: 260px;
+  left: 40px;
+  background-color: rgb(255, 255, 255, 0);
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 0.75em;
+}
+
+/* Third Div */
