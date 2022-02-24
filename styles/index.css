@@ -280,6 +280,11 @@ body {
   gap: 35px;
 }
 
+#apple,
+#google {
+  cursor: pointer;
+}
+
 #appDivLeft {
   width: 620px;
 }
@@ -355,12 +360,12 @@ body {
   background-color: black;
   padding: 100px 80px;
   display: flex;
-  color: rgb(202,202,202);
+  color: rgb(202, 202, 202);
   box-sizing: border-box;
   gap: 20px;
 }
 
-#left{
+#left {
   flex: 1;
 }
 
@@ -381,6 +386,10 @@ body {
   text-align: center;
 }
 
+#mid > div {
+  cursor: pointer;
+}
+
 #right {
   display: flex;
   flex-direction: column;
@@ -391,6 +400,7 @@ body {
 
 #bigIcons > img {
   width: 180px;
+  cursor: pointer;
 }
 
 #smallIcons {
@@ -402,5 +412,5 @@ body {
 #smallIcons > img {
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
-
