@@ -280,11 +280,11 @@ body {
   gap: 35px;
 }
 
-#appDivLeft{
+#appDivLeft {
   width: 620px;
 }
 
-#appDivRight{
+#appDivRight {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -295,7 +295,7 @@ body {
   margin-top: -10px;
 }
 
-#appDivLeft > p{
+#appDivLeft > p {
   font-size: 1.2em;
 }
 
@@ -328,30 +328,79 @@ body {
 
 /* Second last Div */
 
-#betterDiv{
+#betterDiv {
   height: 300px;
   padding-left: 155px;
   box-sizing: border-box;
 }
 
-#txt1{
-  color: rgb(110,110,110);
+#txt1 {
+  color: rgb(110, 110, 110);
   font-size: 6em;
   font-weight: bold;
   margin-top: 20px;
 }
 
-#txt2{
+#txt2 {
   font-size: 4.6em;
-  color: rgb(178,178,178);
+  color: rgb(178, 178, 178);
   font-weight: bold;
   margin-top: -90px;
 }
 
 /* Footer */
 
-#footer{
-  border: 1px solid red;
+#footer {
   height: 450px;
-  
+  background-color: black;
+  padding: 100px 80px;
+  display: flex;
+  color: rgb(202,202,202);
+  box-sizing: border-box;
+  gap: 20px;
 }
+
+#left{
+  flex: 1;
+}
+
+#left > p {
+  font-size: 1.05em;
+}
+
+#left > div > img {
+  width: 150px;
+}
+
+#mid {
+  display: grid;
+  flex: 1.5;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 40px 0px 50px;
+  font-size: 1.05em;
+  text-align: center;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.6;
+  gap: 25px;
+}
+
+#bigIcons > img {
+  width: 180px;
+}
+
+#smallIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#smallIcons > img {
+  width: 35px;
+  height: 35px;
+}
+
