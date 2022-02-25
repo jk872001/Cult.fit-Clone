@@ -1,4 +1,9 @@
 
+@media  screen and (min-width: 0px) and (max-width: 620px) {
+    #dish_item > div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* ----------------------------------------------------------------slider css---------------------------------------------------------------------- */
 
@@ -328,10 +333,4 @@ a {
     /* border: solid; */
     color:  rgb(163, 163, 163);
     padding: 0 3%;
-}
-
-@media  screen and (min-width: 0px) and (max-width: 620px) {
-    #dish_item > div{
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
