@@ -1,7 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/47b83f8dbd3bf93e0df5674b32c6a7e4?family=BrandonTextWeb-Regular);
 
-/* Navbar */
-
 body {
   margin: 0px;
   padding: 0px;
@@ -19,7 +17,7 @@ body {
   height: 60px;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 #iconDiv {
@@ -54,10 +52,6 @@ body {
 
 #midDiv > p:hover {
   color: white;
-}
-
-#midDiv > p:focus{
-    border-bottom: 2px solid white;
 }
 
 #lastDiv {
